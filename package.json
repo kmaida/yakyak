@@ -55,7 +55,7 @@
     "node-notifier": "^5.1.2",
     "notr": "^1.1.2",
     "q": "^1.4.0",
-    "request": "^2.67.0",
+    "request": "^2.88.0",
     "tmp": "0.0.31",
     "trifl": "0.0.10",
     "uber-url-regex": "^5.0.2"
