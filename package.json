@@ -23,7 +23,9 @@
     "deploy:linux-ia32:rpm": "gulp deploy:linux-ia32:rpm",
     "deploy:win32-x64": "gulp deploy:win32-x64",
     "deploy:win32-ia32": "gulp deploy:win32-ia32",
-    "deploy:darwin-x64": "gulp deploy:darwin-x64"
+    "deploy:darwin-x64": "gulp deploy:darwin-x64",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -58,7 +60,8 @@
     "request": "^2.67.0",
     "tmp": "0.0.31",
     "trifl": "0.0.10",
-    "uber-url-regex": "^5.0.2"
+    "uber-url-regex": "^5.0.2",
+    "snyk": "^1.653.0"
   },
   "optionalDependencies": {
     "electron-installer-flatpak": "^0.6.0"
@@ -89,5 +92,6 @@
     "run-sequence": "^2.0.0",
     "sinon": "^4.1.4",
     "sinon-chai": "^2.8.0"
-  }
+  },
+  "snyk": true
 }

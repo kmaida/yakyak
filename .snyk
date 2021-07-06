@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - electron-installer-flatpak > asar > mksnapshot > request > extend:
+        patched: '2021-07-06T04:58:42.852Z'
+  'npm:hoek:20180212':
+    - electron-installer-flatpak > asar > mksnapshot > request > hawk > hoek:
+        patched: '2021-07-06T04:58:42.852Z'
+    - electron-installer-flatpak > asar > mksnapshot > request > hawk > boom > hoek:
+        patched: '2021-07-06T04:58:42.852Z'
+    - electron-installer-flatpak > asar > mksnapshot > request > hawk > sntp > hoek:
+        patched: '2021-07-06T04:58:42.852Z'
+    - electron-installer-flatpak > asar > mksnapshot > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-06T04:58:42.852Z'
+  SNYK-JS-LODASH-567746:
+    - electron-installer-flatpak > lodash:
+        patched: '2021-07-06T04:58:42.852Z'
+    - electron-installer-flatpak > async > lodash:
+        patched: '2021-07-06T04:58:42.852Z'
+    - electron-installer-flatpak > flatpak-bundler > lodash:
+        patched: '2021-07-06T04:58:42.852Z'
+  'npm:stringstream:20180511':
+    - electron-installer-flatpak > asar > mksnapshot > request > stringstream:
+        patched: '2021-07-06T04:58:42.852Z'
+  'npm:tough-cookie:20170905':
+    - electron-installer-flatpak > asar > mksnapshot > request > tough-cookie:
+        patched: '2021-07-06T04:58:42.852Z'
